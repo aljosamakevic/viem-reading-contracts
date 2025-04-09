@@ -32,7 +32,7 @@ const [message, owner] = await Promise.all([
   }),
 ])
 
-// test
+
 
 const htmlContent = contractInfoTemplate(contract.address, message, owner);
 export default htmlContent;
